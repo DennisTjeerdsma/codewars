@@ -1,0 +1,17 @@
+def is_square(n):
+    
+    if n < 0:
+        return False
+    elif n == 0:
+        return True
+        
+    else:
+        counter = 1
+        
+        while counter * counter <= n:
+            if counter * counter == n:
+                return True
+         
+            counter += 1
+
+    return False # fix me
